@@ -1,7 +1,7 @@
 {
 	"name": "mongo-sink",
 	"config": {
-		"topics": "quickstart-events",
+		"topics": "customPrefix.kafkasource.coll.customSuffix",
 		"connector.class": "com.mongodb.kafka.connect.MongoSinkConnector",
 		"key.converter": "org.apache.kafka.connect.json.JsonConverter",
 		"key.converter.schemas.enable": "false",
